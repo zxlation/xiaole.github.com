@@ -1,0 +1,68 @@
+body {
+	padding-left: 14em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: black;
+	background-color: white;
+}
+
+p {
+	text-align: justify;
+}
+	
+ul.navbar {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 1em;
+	left: 3em;
+	width: 10em;
+}
+
+ul.navbar li {
+	background: rgb(217,228,220);
+	margin: 0.5em 0.5em;
+	padding: 0.6em;
+	border-right: 0.2em solid green;
+	border-left: 0.4em solid green;
+}
+
+ul.navbar a {
+	font-weight: bold;
+	text-decoration: none}
+
+ul.navbar li:hover {
+	background: rgb(223,190,197);
+	color: black
+}
+
+ul.navbar a:hover {
+	background-color: rgb(223,190,197);
+	color: black
+}
+	
+a {	
+	text-decoration: none}
+
+a:link {
+	color: blue
+}
+
+a:visited  {
+	color: purple
+}
+
+a:hover  {
+	background-color: rgb(223,190,197)
+}
+
+address {
+	nargin-top: 1em;
+	padding-top: 1em;
+	border-top: thin dotted
+}
+
+
+
+
+
